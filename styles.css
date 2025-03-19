@@ -1,0 +1,42 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f8ff;
+    color: #313;
+    padding-top: 70px; /* Offset for fixed navbar */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+    color: #023bff;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #007bff !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffcc20 !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+/* Section Padding */
+.section-padding {
+    padding: 60px 20px;
+}
+
+/* Images */
+.img-fluid {
+    border: 5px solid #007bff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Background Colors for Sections */
+.bg-light {
+    background-color: #e9f5ff !important;
+}
